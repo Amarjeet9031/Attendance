@@ -12,7 +12,7 @@ class _MapScreenState extends State<MapScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Center(),
+      body: const Center(),
       drawer: Drawer(
         child: Column(
           children: [
@@ -25,7 +25,7 @@ class _MapScreenState extends State<MapScreen> {
             Padding(
               padding: const EdgeInsets.all(12.0),
               child: Container(
-                child: Row(
+                child: const Row(
                   children: [
                     Icon(Icons.alarm,),
                     SizedBox(
@@ -50,11 +50,11 @@ class _MapScreenState extends State<MapScreen> {
               child: Container(
                 child: Row(
                   children: [
-                    Icon(Icons.calendar_month),
-                    SizedBox(
+                    const Icon(Icons.calendar_month),
+                    const SizedBox(
                       width: 10,
                     ),
-                    Container(child: Text("Attendence")
+                    Container(child: const Text("Attendence")
                     ),
                   ],
                 ),
@@ -65,11 +65,11 @@ class _MapScreenState extends State<MapScreen> {
               child: Container(
                 child: Row(
                   children: [
-                    Icon(Icons.calendar_month),
-                    SizedBox(
+                    const Icon(Icons.calendar_month),
+                    const SizedBox(
                       width: 10,
                     ),
-                    Container(child: Text("Attendence")
+                    Container(child: const Text("Attendence")
                     ),
                   ],
                 ),
@@ -80,11 +80,11 @@ class _MapScreenState extends State<MapScreen> {
               child: Container(
                 child: Row(
                   children: [
-                    Icon(Icons.calendar_month),
-                    SizedBox(
+                    const Icon(Icons.calendar_month),
+                    const SizedBox(
                       width: 10,
                     ),
-                    Container(child: Text("Attendence")
+                    Container(child: const Text("Attendence")
                     ),
                   ],
                 ),
@@ -95,11 +95,11 @@ class _MapScreenState extends State<MapScreen> {
               child: Container(
                 child: Row(
                   children: [
-                    Icon(Icons.calendar_month),
-                    SizedBox(
+                    const Icon(Icons.calendar_month),
+                    const SizedBox(
                       width: 10,
                     ),
-                    Container(child: Text("Attendence")
+                    Container(child: const Text("Attendence")
                     ),
                   ],
                 ),

@@ -13,7 +13,7 @@ class _AttendenceState extends State<Attendence> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(title: Text("ATTENDENCE", style: TextStyle(color: Colors.white),),
+      appBar: AppBar(title: const Text("ATTENDENCE", style: TextStyle(color: Colors.white),),
       backgroundColor: Colors.deepPurpleAccent,),
       body: SingleChildScrollView(
         child: Column(
@@ -27,7 +27,7 @@ class _AttendenceState extends State<Attendence> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Row(
+                    const Row(
                       children: [
                        
                         Icon(Icons.person_2),
@@ -39,7 +39,7 @@ class _AttendenceState extends State<Attendence> {
                       onPressed: () {
                         
                       },
-                      child: Text("change")),
+                      child: const Text("change")),
                     
                   ],
                 ),
@@ -53,22 +53,22 @@ class _AttendenceState extends State<Attendence> {
                 child: Row(
                   children: [
                     SizedBox(width: MediaQuery.of(context).size.width/2.3,),
-                    Icon(Icons.arrow_back_ios, color: Colors.blue,),
-                    SizedBox(width: 8,),
-                    Text("Tue , Aug 31 2022"),
-                    SizedBox(width: 8,),
-                    Icon(Icons.arrow_forward_ios),
-                    SizedBox(width: 10,),
-                    Icon(Icons.calendar_month)
+                    const Icon(Icons.arrow_back_ios, color: Colors.blue,),
+                    const SizedBox(width: 8,),
+                    const Text("Tue , Aug 31 2022"),
+                    const SizedBox(width: 8,),
+                    const Icon(Icons.arrow_forward_ios),
+                    const SizedBox(width: 10,),
+                    const Icon(Icons.calendar_month)
                   ],
                 ),
               ),
 
 
             ),
-            Divider(),
+            const Divider(),
 
-            SizedBox(height: 7,),
+            const SizedBox(height: 7,),
             Container(
               child: Padding(
                 padding: const EdgeInsets.only(left: 20 , right: 20),
@@ -87,32 +87,32 @@ class _AttendenceState extends State<Attendence> {
                               ),
                               
                               Container(
-                                margin: EdgeInsets.only(left: 9),
-                                child: Text("Wade Warren (WSL0003)" , style: TextStyle(fontWeight: FontWeight.w500 , fontSize: 18),))
+                                margin: const EdgeInsets.only(left: 9),
+                                child: const Text("Wade Warren (WSL0003)" , style: TextStyle(fontWeight: FontWeight.w500 , fontSize: 18),))
                             ],
                           ),
 
-                  SizedBox(width: 4),
+                  const SizedBox(width: 4),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: [
-                              Icon(Icons.arrow_back, color: Colors.green, size: 16),
-                  SizedBox(width: 4),
-                  Text(
+                              const Icon(Icons.arrow_back, color: Colors.green, size: 16),
+                  const SizedBox(width: 4),
+                  const Text(
                     '09:30 am',
                     style: TextStyle(fontSize: 14, color: Colors.black),
                   ),
-                  SizedBox(width: 17),
-                  Icon(Icons.error, color: Colors.orange, size: 16),
-                  SizedBox(width: 4),
+                  const SizedBox(width: 17),
+                  const Icon(Icons.error, color: Colors.orange, size: 16),
+                  const SizedBox(width: 4),
                   Container(
                     padding:
-                        EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+                        const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
                     decoration: BoxDecoration(
                       color: Colors.green.shade100,
                       borderRadius: BorderRadius.circular(4),
                     ),
-                    child: Text(
+                    child: const Text(
                       'WORKING',
                       style: TextStyle(
                         color: Colors.green,
@@ -130,18 +130,18 @@ class _AttendenceState extends State<Attendence> {
 
 
                     ),
-                     Spacer(),
-          Icon(Icons.calendar_today, color: Colors.black, size: 25),
-          SizedBox(width: 10),
-          Icon(Icons.gps_fixed, color: Colors.purple, size: 30),
+                     const Spacer(),
+          const Icon(Icons.calendar_today, color: Colors.black, size: 25),
+          const SizedBox(width: 10),
+          const Icon(Icons.gps_fixed, color: Colors.purple, size: 30),
 
                   
                   ],
                 ),
               ),
             ),
-            Divider(),
-             SizedBox(height: 7,),
+            const Divider(),
+             const SizedBox(height: 7,),
             Container(
               child: Padding(
                 padding: const EdgeInsets.only(left: 20 , right: 20),
@@ -160,12 +160,12 @@ class _AttendenceState extends State<Attendence> {
                               ),
                               
                               Container(
-                                margin: EdgeInsets.only(left: 9),
-                                child: Text("Esther Howard (WSL0034)", style: TextStyle(fontWeight: FontWeight.w500 , fontSize: 18),))
+                                margin: const EdgeInsets.only(left: 9),
+                                child: const Text("Esther Howard (WSL0034)", style: TextStyle(fontWeight: FontWeight.w500 , fontSize: 18),))
                             ],
                           ),
 
-                          Row(
+                          const Row(
                             children: [
                               Icon(Icons.arrow_back, color: Colors.green, size: 16),
                   SizedBox(width: 4),
@@ -190,18 +190,18 @@ class _AttendenceState extends State<Attendence> {
 
 
                     ),
-                     Spacer(),
-          Icon(Icons.calendar_today, color: Colors.black, size: 25),
-          SizedBox(width: 10),
-          Icon(Icons.gps_fixed, color: Colors.purple, size: 30),
+                     const Spacer(),
+          const Icon(Icons.calendar_today, color: Colors.black, size: 25),
+          const SizedBox(width: 10),
+          const Icon(Icons.gps_fixed, color: Colors.purple, size: 30),
 
                   
                   ],
                 ),
               ),
             ),
-            Divider(),
-             SizedBox(height: 7,),
+            const Divider(),
+             const SizedBox(height: 7,),
             Container(
               child: Padding(
                 padding: const EdgeInsets.only(left: 20 , right: 20),
@@ -220,8 +220,8 @@ class _AttendenceState extends State<Attendence> {
                               ),
                               
                               Container(
-                                margin: EdgeInsets.only(left: 9),
-                                child: Text("Esther Howard (WSL0034)", style: TextStyle(fontWeight: FontWeight.w500 , fontSize: 18),))
+                                margin: const EdgeInsets.only(left: 9),
+                                child: const Text("Esther Howard (WSL0034)", style: TextStyle(fontWeight: FontWeight.w500 , fontSize: 18),))
                             ],
                           ),
 
@@ -229,12 +229,12 @@ class _AttendenceState extends State<Attendence> {
                             children: [
                               Container(
                     padding:
-                        EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+                        const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
                     decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 166, 210, 232),
                       borderRadius: BorderRadius.circular(4),
                     ),
-                    child: Text(
+                    child: const Text(
                       'NOT LOGGED-IN YET',
                       style: TextStyle(
                         color: Colors.blueGrey,
@@ -253,18 +253,18 @@ class _AttendenceState extends State<Attendence> {
 
 
                     ),
-                     Spacer(),
-          Icon(Icons.calendar_today, color: Colors.black, size: 25),
-          SizedBox(width: 10),
-          Icon(Icons.gps_fixed, color: Colors.purple, size: 30),
+                     const Spacer(),
+          const Icon(Icons.calendar_today, color: Colors.black, size: 25),
+          const SizedBox(width: 10),
+          const Icon(Icons.gps_fixed, color: Colors.purple, size: 30),
 
                   
                   ],
                 ),
               ),
             ),
-            Divider(),
-             SizedBox(height: 7,),
+            const Divider(),
+             const SizedBox(height: 7,),
             Container(
               child: Padding(
                 padding: const EdgeInsets.only(left: 20 , right: 20),
@@ -283,12 +283,12 @@ class _AttendenceState extends State<Attendence> {
                               ),
                               
                               Container(
-                                margin: EdgeInsets.only(left: 9),
-                                child: Text("Esther Howard (WSL0034)", style: TextStyle(fontWeight: FontWeight.w500 , fontSize: 18),))
+                                margin: const EdgeInsets.only(left: 9),
+                                child: const Text("Esther Howard (WSL0034)", style: TextStyle(fontWeight: FontWeight.w500 , fontSize: 18),))
                             ],
                           ),
 
-                          Row(
+                          const Row(
                             children: [
                               Icon(Icons.arrow_back, color: Colors.green, size: 16),
                   SizedBox(width: 4),
@@ -313,18 +313,18 @@ class _AttendenceState extends State<Attendence> {
 
 
                     ),
-                     Spacer(),
-          Icon(Icons.calendar_today, color: Colors.black, size: 25),
-          SizedBox(width: 10),
-          Icon(Icons.gps_fixed, color: Colors.purple, size: 30),
+                     const Spacer(),
+          const Icon(Icons.calendar_today, color: Colors.black, size: 25),
+          const SizedBox(width: 10),
+          const Icon(Icons.gps_fixed, color: Colors.purple, size: 30),
 
                   
                   ],
                 ),
               ),
             ),
-            Divider(),
-             SizedBox(height: 7,),
+            const Divider(),
+             const SizedBox(height: 7,),
             Container(
               child: Padding(
                 padding: const EdgeInsets.only(left: 20 , right: 20),
@@ -343,12 +343,12 @@ class _AttendenceState extends State<Attendence> {
                               ),
                               
                               Container(
-                                margin: EdgeInsets.only(left: 9),
-                                child: Text("Esther Howard (WSL0034)", style: TextStyle(fontWeight: FontWeight.w500 , fontSize: 18),))
+                                margin: const EdgeInsets.only(left: 9),
+                                child: const Text("Esther Howard (WSL0034)", style: TextStyle(fontWeight: FontWeight.w500 , fontSize: 18),))
                             ],
                           ),
 
-                          Row(
+                          const Row(
                             children: [
                               Icon(Icons.arrow_back, color: Colors.green, size: 16),
                   SizedBox(width: 4),
@@ -373,18 +373,18 @@ class _AttendenceState extends State<Attendence> {
 
 
                     ),
-                     Spacer(),
-          Icon(Icons.calendar_today, color: Colors.black, size: 25),
-          SizedBox(width: 10),
-          Icon(Icons.gps_fixed, color: Colors.purple, size: 30),
+                     const Spacer(),
+          const Icon(Icons.calendar_today, color: Colors.black, size: 25),
+          const SizedBox(width: 10),
+          const Icon(Icons.gps_fixed, color: Colors.purple, size: 30),
 
                   
                   ],
                 ),
               ),
             ),
-            Divider(),
-             SizedBox(height: 7,),
+            const Divider(),
+             const SizedBox(height: 7,),
             Container(
               child: Padding(
                 padding: const EdgeInsets.only(left: 20 , right: 20),
@@ -403,12 +403,12 @@ class _AttendenceState extends State<Attendence> {
                               ),
                               
                               Container(
-                                margin: EdgeInsets.only(left: 9),
-                                child: Text("Esther Howard (WSL0034)", style: TextStyle(fontWeight: FontWeight.w500 , fontSize: 18),))
+                                margin: const EdgeInsets.only(left: 9),
+                                child: const Text("Esther Howard (WSL0034)", style: TextStyle(fontWeight: FontWeight.w500 , fontSize: 18),))
                             ],
                           ),
 
-                          Row(
+                          const Row(
                             children: [
                               Icon(Icons.arrow_back, color: Colors.green, size: 16),
                   SizedBox(width: 4),
@@ -433,18 +433,18 @@ class _AttendenceState extends State<Attendence> {
 
 
                     ),
-                     Spacer(),
-          Icon(Icons.calendar_today, color: Colors.black, size: 25),
-          SizedBox(width: 10),
-          Icon(Icons.gps_fixed, color: Colors.purple, size: 30),
+                     const Spacer(),
+          const Icon(Icons.calendar_today, color: Colors.black, size: 25),
+          const SizedBox(width: 10),
+          const Icon(Icons.gps_fixed, color: Colors.purple, size: 30),
 
                   
                   ],
                 ),
               ),
             ),
-            Divider(),
-             SizedBox(height: 7,),
+            const Divider(),
+             const SizedBox(height: 7,),
             Container(
               child: Padding(
                 padding: const EdgeInsets.only(left: 20 , right: 20),
@@ -463,12 +463,12 @@ class _AttendenceState extends State<Attendence> {
                               ),
                               
                               Container(
-                                margin: EdgeInsets.only(left: 9),
-                                child: Text("Esther Howard (WSL0034)", style: TextStyle(fontWeight: FontWeight.w500 , fontSize: 18),))
+                                margin: const EdgeInsets.only(left: 9),
+                                child: const Text("Esther Howard (WSL0034)", style: TextStyle(fontWeight: FontWeight.w500 , fontSize: 18),))
                             ],
                           ),
 
-                          Row(
+                          const Row(
                             children: [
                               Icon(Icons.arrow_back, color: Colors.green, size: 16),
                   SizedBox(width: 4),
@@ -493,40 +493,40 @@ class _AttendenceState extends State<Attendence> {
 
 
                     ),
-                     Spacer(),
-          Icon(Icons.calendar_today, color: Colors.black, size: 25),
-          SizedBox(width: 10),
-          Icon(Icons.gps_fixed, color: Colors.purple, size: 30),
+                     const Spacer(),
+          const Icon(Icons.calendar_today, color: Colors.black, size: 25),
+          const SizedBox(width: 10),
+          const Icon(Icons.gps_fixed, color: Colors.purple, size: 30),
 
                   
                   ],
                 ),
               ),
             ),
-            Divider(),
+            const Divider(),
 
             Card(
               child: Container(
                 width: MediaQuery.of(context).size.width*1.1,
                 height: 100,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   
                   borderRadius: BorderRadius.only(topLeft: Radius.circular(30), topRight: Radius.circular(30)),
                   
                 ),
-                child: Padding(
-                  padding: const EdgeInsets.only(right: 20 , left: 20),
+                child: const Padding(
+                  padding: EdgeInsets.only(right: 20 , left: 20),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: EdgeInsets.all(8.0),
                         child: Text("Show Map view"),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: EdgeInsets.all(8.0),
                         child: Icon(Icons.arrow_forward_ios),
                       )
                     ],
@@ -554,7 +554,7 @@ class _AttendenceState extends State<Attendence> {
             Padding(
               padding: const EdgeInsets.all(12.0),
               child: Container(
-                child: Row(
+                child: const Row(
                   children: [
                     Icon(Icons.alarm,),
                     SizedBox(
@@ -579,11 +579,11 @@ class _AttendenceState extends State<Attendence> {
               child: Container(
                 child: Row(
                   children: [
-                    Icon(Icons.calendar_month),
-                    SizedBox(
+                    const Icon(Icons.calendar_month),
+                    const SizedBox(
                       width: 10,
                     ),
-                    Container(child: Text("Attendence")
+                    Container(child: const Text("Attendence")
                     ),
                   ],
                 ),
@@ -594,11 +594,11 @@ class _AttendenceState extends State<Attendence> {
               child: Container(
                 child: Row(
                   children: [
-                    Icon(Icons.calendar_month),
-                    SizedBox(
+                    const Icon(Icons.calendar_month),
+                    const SizedBox(
                       width: 10,
                     ),
-                    Container(child: Text("Attendence")
+                    Container(child: const Text("Attendence")
                     ),
                   ],
                 ),
@@ -609,11 +609,11 @@ class _AttendenceState extends State<Attendence> {
               child: Container(
                 child: Row(
                   children: [
-                    Icon(Icons.calendar_month),
-                    SizedBox(
+                    const Icon(Icons.calendar_month),
+                    const SizedBox(
                       width: 10,
                     ),
-                    Container(child: Text("Attendence")
+                    Container(child: const Text("Attendence")
                     ),
                   ],
                 ),
@@ -624,11 +624,11 @@ class _AttendenceState extends State<Attendence> {
               child: Container(
                 child: Row(
                   children: [
-                    Icon(Icons.calendar_month),
-                    SizedBox(
+                    const Icon(Icons.calendar_month),
+                    const SizedBox(
                       width: 10,
                     ),
-                    Container(child: Text("Attendence")
+                    Container(child: const Text("Attendence")
                     ),
                   ],
                 ),

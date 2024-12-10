@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 // Replace with your file path
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
-      home:Attendence() ,
+      home:const Attendence() ,
     );
   }
 }
